@@ -3,7 +3,16 @@ body{
   background-color:  darkorange;
   overflow-x: hidden;
 }
-
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: darkorange;
+}
+::-webkit-scrollbar-thumb {
+  background: darkorange;
+  border-radius: 30px;
+}
 .row{
   align-items: flex-end;
   height: 100vh;
@@ -30,10 +39,11 @@ body{
   padding: 15%;
 }
 #content #outp, #cnome{
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 #content #outp{
+  overflow: auto;
   text-align: center;
   color: darkorange;
   display: inline-block;
