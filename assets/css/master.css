@@ -6,7 +6,7 @@ body{
 
 .row{
   align-items: flex-end;
-  height: 100vh;
+  height: 95vh;
   position: fixed;
 }
 #content .box{
@@ -61,7 +61,7 @@ body{
 
 @media (max-width: 768px){
   .row{
-    height: 90vh;
+    height: 95vh;
   }
   h2{
     font-size: 1.5rem;
