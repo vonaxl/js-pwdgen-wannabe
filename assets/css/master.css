@@ -1,7 +1,13 @@
-#content{
-  margin: 0 auto;
+
+body{
+  background-color:  darkorange;
+  overflow-x: hidden;
 }
 
+.row{
+  align-items: flex-end;
+  height: 100vh;
+}
 #content .box{
   margin-top: 10%;
   position: relative;
@@ -9,8 +15,12 @@
 #content .box img{
   width: 100%;
 }
-
-
+#content #thinker img{
+  position: absolute;
+  width: 100%;
+  left: 65%;
+  bottom: 0;
+}
 #content .box .txt{
   position: absolute;
   left: 0;
@@ -29,7 +39,7 @@
   width: 100%;
   background: blue;
   border-radius: 15px;
-  transition: 1s ease;
+  transition:background 1s ease;
 }
 #content #outp:hover{
   background: lightblue;
