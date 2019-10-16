@@ -72,11 +72,25 @@ body{
   }
 }
 @media (max-width:600px) {
+  .row{
+    align-items: center;
+  }
   h2{
-    font-size: 0.8rem;
+    font-size: 0.5rem;
   }
   #content #outp, #cnome{
-    font-size: 0.8rem;
+    font-size: 0.5rem;
+    font-weight: bold;
+  }
+@media (max-width:380px) {
+  .row{
+    align-items: center;
+  }
+  h2{
+    font-size: 0.3rem;
+  }
+  #content #outp, #cnome{
+    font-size: 0.3rem;
     font-weight: bold;
   }
 }
