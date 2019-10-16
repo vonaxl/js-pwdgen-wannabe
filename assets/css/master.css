@@ -59,12 +59,24 @@ body{
   }
 }
 
-@media (min-width: 768px){
+@media (max-width: 768px){
+  .row{
+    height: 90vh;
+  }
   h2{
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   #content #outp, #cnome{
-    font-size: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}
+@media (max-width: 320px){
+  h2{
+    font-size: 1.2rem;
+  }
+  #content #outp, #cnome{
+    font-size: 1.2rem;
     font-weight: bold;
   }
 }
