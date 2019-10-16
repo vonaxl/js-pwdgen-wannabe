@@ -34,19 +34,35 @@ body{
 }
 #content #outp{
   text-align: center;
-  color: white;
+  color: darkorange;
   display: inline-block;
   width: 100%;
-  background: blue;
+  border: 1px solid black;
+  padding: 2px;
   border-radius: 15px;
-  transition:background 1s ease;
+  transition:background 0.4s ease;
 }
 #content #outp:hover{
-  background: lightblue;
+  background: white;
+  color: black;
   cursor: pointer;
 }
 
+@media (max-width:1302px) {
+  h2{
+    font-size: 1.5rem;
+  }
+}
 @media (max-width:1020px) {
+  h2{
+    font-size: 1.4rem;
+  }
+  #content #outp, #cnome{
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+}
+@media (max-width:780px) {
   h2{
     font-size: 1rem;
   }
@@ -55,12 +71,12 @@ body{
     font-weight: bold;
   }
 }
-@media (max-width:500px) {
+@media (max-width:600px) {
   h2{
-    font-size: 0.5rem;
+    font-size: 0.8rem;
   }
   #content #outp, #cnome{
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     font-weight: bold;
   }
 }
