@@ -1,1 +1,30 @@
+#content{
+  margin: 0 auto;
+}
 
+#content .box{
+  margin-top: 10%;
+  position: relative;
+}
+#content .box img{
+  width: 100%;
+}
+
+
+#content .box .txt{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10%;
+  padding: 15%;
+}
+
+#content #outp{
+  text-align: center;
+  color: white;
+  font-size: bold;
+  display: inline-block;
+  width: 100%;
+  background: blue;
+  border-radius: 15px;
+}
